@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const req = new XMLHttpRequest();
+    req.onload = function (e) {
+      if (req.status >= 200 && req.status < 400) {
+        console.log(req.responseText)
+        console.log(123)
+      } else {
+        console.log('err')
+      }
+      console.log(e.target.response)
+    }
+
+    req.onerror = function () {
+      console.log('error')
+    }
+
+    req.open('GET', 'https://reqres.in/api/users?page=2', true)
+    // req.open('GET', 'https://google.com', true)
+    req.send()
+  </script>
+  
+</body>
+</html>

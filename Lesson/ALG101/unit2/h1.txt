@@ -1,0 +1,19 @@
+arr = [10, 8 ,6]
+min = Infinity
+min2 = Infinity
+i = 0
+arr[0] = 10, 10 < min = Infinity
+    => min2 = min = Infinity 
+    => min = arr[0] = 10
+
+i = 1
+arr[1] = 8, 8 < min = 10
+    => min2 = min = 10
+    => min = 8
+
+i - 2
+arr[2] = 6, 6 < min = 10
+    => min2 = min = 8
+    => min = 6
+
+print(6, 8)

@@ -1,0 +1,26 @@
+nodeCoor 0 9 : { text: '.', coor: [ 2, 9 ] }
+nodeCoor 1 9 : { text: '.', coor: [ 2, 9 ] }
+nodeCoor 7 9 : { text: '.', coor: [ 6, 9 ] }
+nodeCoor 8 0 : { text: '.', coor: [ 8, 2 ] }
+nodeCoor 8 1 : { text: '.', coor: [ 8, 2 ] }
+nodeCoor 8 9 : { text: '.', coor: [ 6, 9 ] }
+nodeCoor 10 7 : { text: '.', coor: [ 10, 6 ] }
+nodeCoor 10 8 : { text: '.', coor: [ 10, 6 ] }
+nodeCoor 10 11 : { text: '.', coor: [ 12, 11 ] }
+nodeCoor 11 11 : { text: '.', coor: [ 12, 11 ] }
+nodeCoor 13 0 : { text: '.', coor: [ 13, 2 ] }
+nodeCoor 13 1 : { text: '.', coor: [ 13, 2 ] }
+nodeCoor 15 0 : { text: '.', coor: [ 15, 2 ] }
+nodeCoor 15 1 : { text: '.', coor: [ 15, 2 ] }
+nodeCoor 17 13 : { text: '.', coor: [ 16, 13 ] }
+nodeCoor 18 13 : { text: '.', coor: [ 16, 13 ] }
+[
+  [ 0, 9 ],   [ 1, 9 ],
+  [ 7, 9 ],   [ 8, 0 ],
+  [ 8, 1 ],   [ 8, 9 ],
+  [ 10, 7 ],  [ 10, 8 ],
+  [ 10, 11 ], [ 11, 11 ],
+  [ 13, 0 ],  [ 13, 1 ],
+  [ 15, 0 ],  [ 15, 1 ],
+  [ 17, 13 ], [ 18, 13 ]
+]

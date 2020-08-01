@@ -1,0 +1,136 @@
+yarn run v1.22.4
+$ node bus.js
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>[22]公車動態資訊</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <script language="JavaScript">
+        function query() {
+            QueryForm.submit();
+        }
+		//GoogleAnalysisCount
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36595213-1']);
+		_gaq.push(['_setCustomVar',1, 'RouteName', '22', 3]);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+    </script>
+</head>
+<body onload="setTimeout('query();',60000);">
+<center>
+    <table class="formattable1">
+    
+        <tr>
+            <th class="title1"><a href="index.jsp" class="title1">行動查詢系統</a></th>
+        </tr>
+    
+        <tr>
+            <th class="title2"><a href="businfo1.jsp" class="title2">查詢公車動態資訊</a></th>
+        </tr>
+        <tr>
+            <th class="title3"><a href="pathinfo.jsp?routename=22">22</a><br><span class="updatetime">(更新時間：15:30:11&nbsp;<input type="button" value="立刻更新" onclick="query()">)</span>
+            </th>
+        </tr>
+		</table>
+    
+		<marquee scrollamount="4" class="marqueetd" width="100%">※配合城市科大及北藝大暑假期間(109年7月6日至109年9月13日)，紅55路公車以假日班次營運，紅55路區間車停駛。　　　　</marquee>
+	
+		<table class="formattable1">
+		<tr>
+			<td class="ttego1">
+			
+			</td>
+		</tr>
+        <tr>
+            <td>
+
+                <table border=0 width="100%">
+                    <tr>
+                        <td width="50%" class="ttegotitle">去程 (往衡陽路)
+                        </td>
+                        <td width="50%" class="ttebacktitle">返程 (往吳興街)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign=top width="50%">
+                            <table border=0 width="100%">
+                                <tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E5%90%B3%E8%88%88%E8%A1%97%E7%AB%99">吳興街站</a></td><td align=center nowrap>未發車</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%9D%BE%E4%BB%81%E8%B7%AF">松仁路</a></td><td align=center nowrap>未發車</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E5%90%B3%E8%88%88%E5%9C%8B%E5%B0%8F%28%E6%9D%BE%E4%BB%81%29">吳興國小(松仁)</a></td><td align=center nowrap>未發車</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%9C%8B%E4%B8%AD%28%E8%8E%8A%E6%95%AC%29">信義國中(莊敬)</a></td><td align=center nowrap>未發車</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E8%87%BA%E5%8C%97%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8">臺北醫學大學</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">209-FY</font><br>進站中</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%99%AF%E6%96%B0%E9%87%8C">景新里</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%B8%96%E8%B2%BF%E4%B8%AD%E5%BF%83%28%E8%8E%8A%E6%95%AC%29">世貿中心(莊敬)</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">212-FY</font><br>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%85%89%E5%BE%A9%E8%B7%AF%E5%8F%A3">信義光復路口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E9%80%9A%E5%8C%96%E8%A1%97%E5%8F%A3">信義通化街口</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">189-FY</font><br>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%8D%B7%E9%81%8B%E4%BF%A1%E7%BE%A9%E5%AE%89%E5%92%8C%E7%AB%99%28%E4%BF%A1%E7%BE%A9%29">捷運信義安和站(信義)</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%95%A6%E5%8C%96%E8%B7%AF%E5%8F%A3">信義敦化路口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%A4%A7%E5%AE%89%E8%B7%AF%E5%8F%A3">信義大安路口</a></td><td align=center nowrap>3分<br><img border=0 src="bus1.gif"><font style="color:darkblue;">207-FY</font></td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%8D%B7%E9%81%8B%E5%A4%A7%E5%AE%89%E7%AB%99%28%E4%BF%A1%E7%BE%A9%29">捷運大安站(信義)</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E5%B8%AB%E5%A4%A7%E9%99%84%E4%B8%AD">師大附中</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%BB%BA%E5%9C%8B%E8%B7%AF%E5%8F%A3">信義建國路口</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">200-FY</font><br>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%8D%B7%E9%81%8B%E5%A4%A7%E5%AE%89%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%E7%AB%99">捷運大安森林公園站</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%96%B0%E7%94%9F%E8%B7%AF%E5%8F%A3">信義新生路口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%B0%B8%E5%BA%B7%E8%A1%97%E5%8F%A3">信義永康街口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E6%8D%B7%E9%81%8B%E6%9D%B1%E9%96%80%E7%AB%99">捷運東門站</a></td><td align=center nowrap>3分</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%9D%AD%E5%B7%9E%E8%B7%AF%E5%8F%A3">信義杭州路口</a></td><td align=center nowrap>4分</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%B8%AD%E6%AD%A3%E7%B4%80%E5%BF%B5%E5%A0%82">中正紀念堂</a></td><td align=center nowrap>5分<br><img border=0 src="bus1.gif"><font style="color:darkblue;">203-FY</font></td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E8%87%BA%E5%A4%A7%E9%86%AB%E9%99%A2">臺大醫院</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">191-FY</font><br>將到站</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%28%E5%BF%A0%E5%AD%9D%29">臺北車站(忠孝)</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%28%E9%87%8D%E6%85%B6%29">臺北車站(重慶)</a></td><td align=center nowrap>5分</td></tr>
+<tr class="ttego1"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E9%87%8D%E6%85%B6%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B5">重慶南路一段</a></td><td align=center nowrap>6分<br><img border=0 src="bus1.gif"><font style="color:darkblue;">208-FY</font></td></tr>
+<tr class="ttego2"><td><a href="businfo3.jsp?Dir=1&Route=22&Stop=%E4%BA%8C%E4%BA%8C%E5%85%AB%E5%92%8C%E5%B9%B3%E5%85%AC%E5%9C%92">二二八和平公園</a></td><td align=center nowrap>將到站</td></tr>
+
+                            </table>
+                        </td>
+                        <td valign=top width="50%">
+                            <table border=0 width="100%">
+                                <tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E5%8D%9A%E6%84%9B%E8%B7%AF">博愛路</a></td><td align=center nowrap>3分</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E8%87%BA%E5%8C%97%E9%83%B5%E5%B1%80">臺北郵局</a></td><td align=center nowrap>5分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%28%E5%BF%A0%E5%AD%9D%29">臺北車站(忠孝)</a></td><td align=center nowrap>6分<br><img border=0 src="bus1.gif"><font style="color:darkblue;">061-FY</font></td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%8D%B7%E9%81%8B%E5%96%84%E5%B0%8E%E5%AF%BA%E7%AB%99">捷運善導寺站</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E9%96%8B%E5%8D%97%E5%95%86%E5%B7%A5">開南商工</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BB%81%E6%84%9B%E6%9E%97%E6%A3%AE%E8%B7%AF%E5%8F%A3">仁愛林森路口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%9D%AD%E5%B7%9E%E8%B7%AF%E5%8F%A3">信義杭州路口</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">206-FY</font><br>進站中</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%8D%B7%E9%81%8B%E6%9D%B1%E9%96%80%E7%AB%99">捷運東門站</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%B0%B8%E5%BA%B7%E8%A1%97%E5%8F%A3%28%E6%8D%B7%E9%81%8B%E6%9D%B1%E9%96%80%E7%AB%99%29">信義永康街口(捷運東門站)</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%96%B0%E7%94%9F%E8%B7%AF%E5%8F%A3">信義新生路口</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%8D%B7%E9%81%8B%E5%A4%A7%E5%AE%89%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%E7%AB%99">捷運大安森林公園站</a></td><td align=center nowrap>3分</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%BB%BA%E5%9C%8B%E8%B7%AF%E5%8F%A3">信義建國路口</a></td><td align=center nowrap>4分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%8D%B7%E9%81%8B%E5%A4%A7%E5%AE%89%E7%AB%99%28%E4%BF%A1%E7%BE%A9%29">捷運大安站(信義)</a></td><td align=center nowrap>6分</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%A4%A7%E5%AE%89%E8%B7%AF%E5%8F%A3">信義大安路口</a></td><td align=center nowrap>7分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E6%95%A6%E5%8C%96%E8%B7%AF%E5%8F%A3">信義敦化路口</a></td><td align=center nowrap>8分</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%8D%B7%E9%81%8B%E4%BF%A1%E7%BE%A9%E5%AE%89%E5%92%8C%E7%AB%99%28%E4%BF%A1%E7%BE%A9%29">捷運信義安和站(信義)</a></td><td align=center nowrap>9分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E9%80%9A%E5%8C%96%E8%A1%97%E5%8F%A3">信義通化街口</a></td><td align=center nowrap>10分</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%85%89%E5%BE%A9%E8%B7%AF%E5%8F%A3">信義光復路口</a></td><td align=center nowrap>11分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%B8%96%E8%B2%BF%E4%B8%AD%E5%BF%83%28%E8%8E%8A%E6%95%AC%29">世貿中心(莊敬)</a></td><td align=center nowrap>15分<br><img border=0 src="bus1.gif"><font style="color:darkblue;">193-FY</font></td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%99%AF%E6%96%B0%E9%87%8C">景新里</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E8%87%BA%E5%8C%97%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8">臺北醫學大學</a></td><td align=center nowrap>將到站</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E4%BF%A1%E7%BE%A9%E5%9C%8B%E4%B8%AD%28%E8%8E%8A%E6%95%AC%29">信義國中(莊敬)</a></td><td align=center nowrap>3分</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E5%90%B3%E8%88%88%E5%9C%8B%E5%B0%8F%28%E8%8E%8A%E6%95%AC%29">吳興國小(莊敬)</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">205-FY</font><br>進站中</td></tr>
+<tr class="tteback2"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E6%9D%BE%E4%BB%81%E8%B7%AF">松仁路</a></td><td align=center nowrap><img border=0 src="bus1.gif"><font style="color:darkblue;">201-FY</font><br>將到站</td></tr>
+<tr class="tteback1"><td><a href="businfo3.jsp?Dir=0&Route=22&Stop=%E5%90%B3%E8%88%88%E8%A1%97%E7%AB%99">吳興街站</a></td><td align=center nowrap>將到站</td></tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    <form action="businfo2.jsp?routename=22" method="post" name="QueryForm" id="QueryForm">
+    </form>
+</body>
+</html>
+Done in 0.46s.

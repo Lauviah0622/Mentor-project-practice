@@ -1,0 +1,5 @@
+yarn run v1.22.4
+$ node bus.js
+<tr class="ttego1"
+undefined
+Done in 0.49s.

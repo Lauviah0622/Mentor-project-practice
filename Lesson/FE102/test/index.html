@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .level1 {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+    }
+    .level2 {
+      background-color: green;
+      width: 100px;
+      height: 100px;
+    }
+    .level3 {
+      background-color: red;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="level1">
+    <div class="level2">
+      <div class="level3">
+
+      </div>
+    </div>
+  </div>
+  <div id="tar">123123</div>
+  <input type="text">
+  <a href="/list">123</a>
+  <form method="GET"action="https://google.com/search">
+    <input type="text" name="q">
+    <button type="submit">submit</button>
+  </form>
+  <script>
+        document.querySelector('.level2').addEventListener('click', function (e) {
+      console.log('stop')
+      e.stopPropagation()
+    }, true)
+    addListener('.level1')
+    addListener('.level2')
+    addListener('.level3')
+    function addListener (selector) {
+      document.querySelector(selector).addEventListener('click', function (e) {
+        console.log(e.eventPhase)
+        console.log(selector, 'capture')
+      }, true)
+
+      document.querySelector(selector).addEventListener('click', function (e) {
+        console.log(e.eventPhase)
+        console.log(selector, 'bubble')
+      }, false)
+    }
+
+    
+
+
+    window.addEventListener('click', function (e) {
+      // console.log(e.eventPhase)
+      // e.preventDefault()
+    }, false)
+
+    document.querySelector('.level1').addEventListener('click', function (e) {
+      document.querySelector('#tar').outerHTML = `<h1>123123123<h1/>`
+    })
+
+// https://www.google.com/search?q=timeoq=time
+
+
+
+  </script>
+</body>
+</html>

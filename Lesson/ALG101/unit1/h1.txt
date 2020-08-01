@@ -1,0 +1,5 @@
+const { stringify } = require("querystring")
+reverseWord = ''
+for (i from word.length - 1 to 0) do 
+    word[i]
+end for

@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lauvi\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Common Files\Autodesk Shared;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Autodesk\Backburner;C:\Program Files\Git\cmd;C:\Users\lauvi\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\lauvi\AppData\Roaming\Python\Python37\Scripts;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\lauvi\scoop\shims;C:\Users\lauvi\AppData\Local\Microsoft\WindowsApps;C:\Users\lauvi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lauvi\AppData\Local\atom\bin;C:\Users\lauvi\AppData\Local\Programs\Python\Python37-32;C:\Users\lauvi\AppData\Local\Programs\Python\Python37-32\scripts;C:\Users\lauvi\AppData\Local\Microsoft\WindowsApps;C:\Users\lauvi\AppData\Roaming\npm;C:\Users\lauvi\AppData\Local\Yarn\bin;I:\Application\Fiddler
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:887:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1153:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

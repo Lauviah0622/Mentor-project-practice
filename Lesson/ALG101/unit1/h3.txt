@@ -1,0 +1,9 @@
+const { endianness } = require("os")
+
+let max =  input[1]
+for (i from 1 to n - 1) do 
+    if (input[i] > max) do  
+        max = input[i]
+    end
+end
+print max

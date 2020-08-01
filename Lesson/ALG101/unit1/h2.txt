@@ -1,0 +1,5 @@
+let sum = 0
+for (i from 1 to n - 1) do
+    sum += array[i] 
+end for
+print sun
